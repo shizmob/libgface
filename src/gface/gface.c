@@ -13,7 +13,7 @@ wchar_t *gface_acquire()
     if(validated) {
         return L"( ≖‿≖)";
     }
-    return L"Your gface license is inactive or otherwhise invalid. If you believe this is in error, contact licensing@xn--hwg34fba.ws.";
+    return L"Your gface license is inactive or otherwise invalid. If you believe this is in error, contact licensing@xn--hwg34fba.ws.";
 }
 
 void gface_shutdown()
