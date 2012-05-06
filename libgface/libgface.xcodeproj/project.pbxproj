@@ -6,8 +6,22 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4D7C7E131556A017005EFF8A /* gface.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C7E101556A017005EFF8A /* gface.c */; };
+		4D7C7E141556A017005EFF8A /* gface.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7C7E111556A017005EFF8A /* gface.h */; };
+		4D7C7E151556A017005EFF8A /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C7E121556A017005EFF8A /* Makefile */; };
+		4D7C7E1A1556A022005EFF8A /* acquire.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C7E181556A022005EFF8A /* acquire.c */; };
+		4D7C7E1B1556A022005EFF8A /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C7E191556A022005EFF8A /* Makefile */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4D4F700A15555C61004FA707 /* liblibgface.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibgface.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7C7E101556A017005EFF8A /* gface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gface.c; sourceTree = "<group>"; };
+		4D7C7E111556A017005EFF8A /* gface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gface.h; sourceTree = "<group>"; };
+		4D7C7E121556A017005EFF8A /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		4D7C7E181556A022005EFF8A /* acquire.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acquire.c; sourceTree = "<group>"; };
+		4D7C7E191556A022005EFF8A /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		4D7C7E1C1556A02C005EFF8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +38,7 @@
 		4D4F6FFF15555C61004FA707 = {
 			isa = PBXGroup;
 			children = (
+				4D7C7E0E1556A017005EFF8A /* src */,
 				4D4F700B15555C61004FA707 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,6 +51,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4D7C7E0E1556A017005EFF8A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C7E1C1556A02C005EFF8A /* README.md */,
+				4D7C7E171556A022005EFF8A /* tests */,
+				4D7C7E0F1556A017005EFF8A /* gface */,
+				4D7C7E121556A017005EFF8A /* Makefile */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		4D7C7E0F1556A017005EFF8A /* gface */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C7E101556A017005EFF8A /* gface.c */,
+				4D7C7E111556A017005EFF8A /* gface.h */,
+			);
+			path = gface;
+			sourceTree = "<group>";
+		};
+		4D7C7E171556A022005EFF8A /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C7E181556A022005EFF8A /* acquire.c */,
+				4D7C7E191556A022005EFF8A /* Makefile */,
+			);
+			name = tests;
+			path = ../tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +89,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7C7E141556A017005EFF8A /* gface.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D7C7E131556A017005EFF8A /* gface.c in Sources */,
+				4D7C7E151556A017005EFF8A /* Makefile in Sources */,
+				4D7C7E1A1556A022005EFF8A /* acquire.c in Sources */,
+				4D7C7E1B1556A022005EFF8A /* Makefile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +238,7 @@
 				4D4F701015555C61004FA707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
