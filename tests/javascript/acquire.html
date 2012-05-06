@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>libgface test</title>
+    <script type="text/javascript" src="../../src/bindings/javascript/libgface.js"></script>
+	<script type="text/javascript">
+		function gface_test() {
+			gface.init("license key here");
+			alert(gface.acquire());
+			gface.shutdown();
+		}
+	</script>
+  </head>
+  <body onload="gface_test();">
+  </body>
+</html>
