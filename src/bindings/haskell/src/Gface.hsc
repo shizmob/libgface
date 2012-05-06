@@ -1,7 +1,6 @@
 {-# LANGUAGE ForeignFunctionInterface #-}
 module Gface (init, acquire, shutdown) where
 import Foreign.C
-import System.IO.Unsafe (unsafePerformIO)
 import Prelude hiding (init)
 
 #include <gface/gface.h>
