@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D613F1A1556C75500BE276A /* acquire-mac.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D613F181556C75500BE276A /* acquire-mac.c */; };
+		4D613F1B1556C75500BE276A /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4D613F191556C75500BE276A /* Makefile */; };
+		4D7C7E131556A017005EFF8A /* gface.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C7E101556A017005EFF8A /* gface.c */; };
+		4D7C7E141556A017005EFF8A /* gface.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D7C7E111556A017005EFF8A /* gface.h */; };
+		4D7C7E151556A017005EFF8A /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C7E121556A017005EFF8A /* Makefile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D4F700A15555C61004FA707 /* liblibgface.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibgface.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D613F181556C75500BE276A /* acquire-mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "acquire-mac.c"; sourceTree = "<group>"; };
+		4D613F191556C75500BE276A /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		4D7C7E101556A017005EFF8A /* gface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gface.c; sourceTree = "<group>"; };
+		4D7C7E111556A017005EFF8A /* gface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gface.h; sourceTree = "<group>"; };
+		4D7C7E121556A017005EFF8A /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		4D7C7E1C1556A02C005EFF8A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4F700715555C61004FA707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D4F6FFF15555C61004FA707 = {
+			isa = PBXGroup;
+			children = (
+				4D613F171556C75500BE276A /* tests */,
+				4D7C7E0E1556A017005EFF8A /* src */,
+				4D4F700B15555C61004FA707 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D4F700B15555C61004FA707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D4F700A15555C61004FA707 /* liblibgface.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D613F171556C75500BE276A /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D613F181556C75500BE276A /* acquire-mac.c */,
+				4D613F191556C75500BE276A /* Makefile */,
+			);
+			name = tests;
+			path = ../tests;
+			sourceTree = "<group>";
+		};
+		4D7C7E0E1556A017005EFF8A /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C7E1C1556A02C005EFF8A /* README.md */,
+				4D7C7E0F1556A017005EFF8A /* gface */,
+				4D7C7E121556A017005EFF8A /* Makefile */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		4D7C7E0F1556A017005EFF8A /* gface */ = {
+			isa = PBXGroup;
+			children = (
+				4D7C7E101556A017005EFF8A /* gface.c */,
+				4D7C7E111556A017005EFF8A /* gface.h */,
+			);
+			path = gface;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D4F700815555C61004FA707 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C7E141556A017005EFF8A /* gface.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D4F700915555C61004FA707 /* libgface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4F700E15555C61004FA707 /* Build configuration list for PBXNativeTarget "libgface" */;
+			buildPhases = (
+				4D4F700615555C61004FA707 /* Sources */,
+				4D4F700715555C61004FA707 /* Frameworks */,
+				4D4F700815555C61004FA707 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libgface;
+			productName = libgface;
+			productReference = 4D4F700A15555C61004FA707 /* liblibgface.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D4F700115555C61004FA707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Mark Wood";
+			};
+			buildConfigurationList = 4D4F700415555C61004FA707 /* Build configuration list for PBXProject "libgface" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D4F6FFF15555C61004FA707;
+			productRefGroup = 4D4F700B15555C61004FA707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4F700915555C61004FA707 /* libgface */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4F700615555C61004FA707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D7C7E131556A017005EFF8A /* gface.c in Sources */,
+				4D7C7E151556A017005EFF8A /* Makefile in Sources */,
+				4D613F1A1556C75500BE276A /* acquire-mac.c in Sources */,
+				4D613F1B1556C75500BE276A /* Makefile in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D4F700C15555C61004FA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D4F700D15555C61004FA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D4F700F15555C61004FA707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D4F701015555C61004FA707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D4F700415555C61004FA707 /* Build configuration list for PBXProject "libgface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4F700C15555C61004FA707 /* Debug */,
+				4D4F700D15555C61004FA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4F700E15555C61004FA707 /* Build configuration list for PBXNativeTarget "libgface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4F700F15555C61004FA707 /* Debug */,
+				4D4F701015555C61004FA707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D4F700115555C61004FA707 /* Project object */;
+}
