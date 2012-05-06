@@ -2,7 +2,7 @@
 
 static bool validated = false;
 
-bool gface_init(char *license_key)
+bool gface_init(const char *license_key)
 {
     // TODO: implement gface license key checking
     return false;
