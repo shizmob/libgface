@@ -10,4 +10,4 @@ Credits
 - `rfw`: Python bindings
 - `phpboxxx`: Javascript port
 - `mikeplus64`: Haskell bindings
-- `alexrp`: Python bindings
+- `alexrp`: D bindings
