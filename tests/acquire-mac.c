@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <gface/gface.h>
+#include <gface.h>
 
 int main()
 {
