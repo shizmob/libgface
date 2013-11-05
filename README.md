@@ -11,3 +11,4 @@ Credits
 - `phpboxxx`: Javascript port
 - `mikeplus64`: Haskell bindings
 - `alexrp`: D bindings
+- `q66`: Lua bindings and port
